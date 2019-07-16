@@ -4,16 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>SmurfDark</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        html, body{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.2;
+        }
+        body{
+            background: url(https://img1.ibxk.com.br/2019/02/25/25044125149117.jpg?w=700)
+        }
+        .container{
+            width: 100%;
+            max-width: 1024px;
+            margin: auto;
+        }
+        /*head*/
+        .container > header{
+            background: #ecf0f1;
+            display: flex;
+        }
+        .container > header img{
+            width: 6rem;
+            height: auto;
+            margin: .5rem 1rem .5rem .5rem;
+        }
+        .container > header a:nth-child(2){
+            color: #8e44ad;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container > header h1{
+            margin: 0;
+        }
+        nav{
+            text-align: center;
+            background: #bdc3c7;
+        }
+        .container > footer{
+            display: flex;
+            justify-content: space-between;
+            background: #8e44ad;
+            padding: 1rem;
+            color: white;
+        } 
+        .container > footer a{
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }  
+    </style>
 </head>
 <body>
     <a href="" name="#topo"></a>
     
     <div class="container">
-        <header>
-            <a href="index.html" img src="" alt="smurfdark"></a>
+        <header>  
+
+            <a href="index.html">
+             <img src="img/img0.png" alt="smurfdark">
+            </a>
             <a href="index.html"><h1>SmurfDark</h1></a>
-            
+
         </header>
         <nav>
             <a href="index.html">Inicio</a>
