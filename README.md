@@ -1,2 +1,2 @@
 # smurfdark.github.io
-Meu site de apresentação
+Olá, eu sou o SmurfDark um jovem programador e hacker.
